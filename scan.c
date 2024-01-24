@@ -191,6 +191,7 @@ int scan_file(int argc, char **argv) {
     options.parse |= ~0;                           /* enable all parsers */
     options.general |= CL_SCAN_GENERAL_HEURISTICS; /* enable heuristic alert options */
 
+
     if ((ret = cl_scandesc(fd, filename, &virname, &size, engine, &options)) == CL_VIRUS) {
         printf("Virus detected: %s\n", virname);
     } else {
