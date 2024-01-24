@@ -217,6 +217,7 @@ int scan_file(int argc, char **argv) {
 }
 
 int main() {
-    scan_dir(".");
+    scan_file(/*file*/)
+    scan_dir(/*directory*/);
     return 0;
 }
