@@ -15,20 +15,6 @@
 #define O_BINARY 0
 #endif
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <dirent.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <clamav.h>
-
-#ifndef O_BINARY
-#define O_BINARY 0
-#endif
-
     /*
     * No seas cochino, piensa, no incluyas librerias que no vas a utilizar
     * No hagas las cosas por bonito, que termina quedando puerco tu programa.
