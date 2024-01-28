@@ -3,14 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\Users\\Ernesto\\Desktop\\av\\"
+                "C:\\Users\\Ernesto\\Desktop\\av\\",
+                "${workspaceFolder}/libclamav"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ]
-        }
+            ],
+            "compilerPath": "C:\\Program Files\\mingw64\\bin\\gcc.exe"
+            }
     ],
     "version": 4
 }
